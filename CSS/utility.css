@@ -1,0 +1,53 @@
+.invert{
+    filter: invert(1);
+}
+
+.white{
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+font-5{
+    font-size: 5px;
+}
+/* 
+.temp-bor{
+    border: 2px solid white;
+} */
+
+.b-black{
+    background-color: black;
+}
+
+.b-white{
+    background-color: white;
+}
+
+.deepest-gray{
+    background-color: #151515;
+}
+
+.deeper-grey{
+    background-color: #292929;
+}
+
+.green-black{
+    background-color: #0A1E0A;
+}
+
+.cur-poi{
+    cursor: pointer;
+}
+
+svg{
+    cursor: pointer;
+}

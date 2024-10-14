@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Playwrite+HR+Lijeva:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+    z-index: 1;
+    width: 99vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.left{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px 10px;
+    padding: 5px;
+}
+
+.he-1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.he-22{
+    gap: 10px;
+}
+
+.he-22>b{
+    font-size: 11px;
+}
+
+.left-main-upper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left main{
+    margin: 10px;
+    padding: 5px;
+    height: 65.5vh;
+}
+
+.songs-series{
+    overflow: auto;
+    margin: 10px 5px;
+    height: 58vh;
+}
+
+.song-l{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.song-l img{
+    width: 15px;
+}
+
+footer{
+    font-size: 14px;
+    position:fixed;
+    left: 55px;
+    bottom: 15px;
+}
+
+.right{
+    width: 75vw;
+    margin: 5px 5px;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.r-h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 5px;
+}
+
+.r-h-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.r-h-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 25px;
+}
+
+.sign-up{
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input{
+    padding: 0 5px ;
+}
+
+.sign-up-box{
+    background: radial-gradient(circle, white, #1e90ff);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.log-in-box{
+    background: radial-gradient(circle, white, green);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2;
+   
+}
+
+#sign-up-email, #sign-up-create-password, #sign-up-confirm-password{
+    width: 200px;
+    height: 25px;
+    box-sizing: border-box;
+    border: 1px solid #4a4a4a;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.next{
+    width: 200px;
+    height: 25px;
+    color: white;
+    background-color: #0056d6;
+    border: 1px solid #4a4a4a;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.already{
+    font-size: 12px;
+    color: black;
+}
+
+.log-in-fb{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    background-color: #324696;
+    border: 1px solid #4a4a4a;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.log-in-google{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16.5px;
+    color: #434447;
+    border: 1px solid #4a4a4a;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(1.05);
+    transition-timing-function: ease-in-out;
+}
+
+.log-in{
+    color: black;
+    background-color: white;
+    font-size: 12px;
+    /* font-weight: bold; */
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.right>section{
+    color: white;
+    margin: 10px 25px;
+    font-size: 20px;
+}
+
+.right main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    padding: 0 10px;
+    max-height: 60vh;
+    width: 99%;
+    overflow-y: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+    margin: 10px;
+    padding: 15px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.card:hover{
+    background-color: #464646;
+    .title{
+        background-color: #464646;
+    }
+    .description{
+        background-color: #464646;
+    }
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description{
+    font-size: 10px;
+    text-align: center;
+}
+
+.playbar{
+    position: fixed;
+    width: 70%;
+    bottom: 5px;
+    margin: 10px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.songname{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width: 180px;
+}
+
+.playbar-upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.svgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.svgs img{
+    height: 30px;
+}
+
+.duration-vol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.vol{
+    gap: 10px;
+}
+
+.line{
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.circle{
+    border-radius: 50px;    
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    position: relative;
+    left: 0%;
+    bottom: 10.5px;
+    transition: left 0.5s;
+    background: radial-gradient(circle, white, #1e90ff)
+}
+
+#hambar{
+    display: none;
+}
+
+#cross{
+    display: none;
+}
+
+#cross img{
+    height: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .left{
+        top: 10px;
+        position: absolute;
+        left: -100%;
+        z-index: 3;
+        width: 70vw;
+        background-color: black;
+        transition: all 1s;
+    }
+
+    .left footer{
+        display: none;
+    }
+
+    #hambar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right header{
+        width: 100%;
+        position: relative;
+        left: 3px;
+    }
+
+    .playbar{
+        position: fixed;
+        left: 3px;
+        bottom: 1px;
+        width: 90vw;
+        display: flex;
+    }
+
+    .playbar-upper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card{
+        width: 80%;
+    }
+
+    .songname{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .right main{
+        grid-template-columns: 1fr;
+        max-height: 59vh;
+    }
+
+    .right{
+        width: 100%;
+    }
+
+    .card{
+        width: 85%;
+        border-radius: 10px;
+    }
+
+    .playbar{
+        font-size: 14.5px;
+    }
+    .playbar img{
+        height: 25px;
+    }
+}
