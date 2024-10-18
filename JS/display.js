@@ -25,9 +25,6 @@ document.querySelector(".sign-up").addEventListener("click", ()=>{
             sign_up_box.style.top = "45px"; 
             sign_up_box.style.right = "100px";
             sign_up_box.style.opacity = "1";
-
-            // document.querySelector("body").style.filter = "blur(5px)";
-            // document.querySelectorAll("body > *:not(.sign-up-box)").style.filter = "blur(50px)"
             
             document.querySelector(".log-in-box").style.display = "none"
 
@@ -74,7 +71,6 @@ document.querySelector(".log-in").addEventListener("click", ()=>{
         }, 10);
     }
 })
-
 
 function main() {
     let a = prompt("Enter your Name")
