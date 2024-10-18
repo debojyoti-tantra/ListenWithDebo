@@ -1,0 +1,20 @@
+{
+    "folder": "party",
+    "title": "Party Music",
+    "description": "Enjoy",
+    "cover": "./songs/party/cover.jpg",
+    "songs": [
+      {
+        "name": "Badri Ki Dulhania",
+        "file": "Badri Ki Dulhania.mp3"
+      },
+      {
+        "name": "Jhoome Jo Pathaan",
+        "file": "Jhoome Jo Pathaan.mp3"
+      },
+      {
+        "name": "Radha",
+        "file": "Radha.mp3"
+      }
+    ]
+  }
