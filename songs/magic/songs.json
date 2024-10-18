@@ -1,0 +1,16 @@
+{
+  "folder": "magic",
+  "title": "Magic",
+  "description": "Feel the Magic",
+  "cover": "./songs/magic/cover.jpg",
+  "songs": [
+    {
+      "name": "Manwa Laage",
+      "file": "Manwa Laage.mp3"
+    },
+    {
+      "name": "Mere Dholna",
+      "file": "Mere Dholna.mp3"
+    }
+  ]
+}
