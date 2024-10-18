@@ -1,0 +1,28 @@
+{
+    "folder": "sad",
+    "title": "Sad Songs",
+    "description": "Be Positive",
+    "cover": "./songs/sad/cover.jpg",
+    "songs": [
+      {
+        "name": "Aaoge Tum Kabhi",
+        "file": "Aaoge Tum Kabhi.mp3"
+      },
+      {
+        "name": "Bekhayali",
+        "file": "Bekhayali.mp3"
+      },
+      {
+        "name": "Choo Lo",
+        "file": "Choo Lo.mp3"
+      },
+      {
+        "name": "Kaise Hua",
+        "file": "Kaise Hua.mp3"
+      },
+      {
+        "name": "Tujhe Kitna Chahne Lage Hum",
+        "file": "Tujhe Kitna Chahne Lage Hum.mp3"
+      }
+    ]
+  }
