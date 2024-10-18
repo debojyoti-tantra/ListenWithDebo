@@ -152,11 +152,6 @@ async function main() {
     // Display all the albums in the page
     displayAlbums()
 
-    document.querySelector(".vol").querySelector("#inputt").addEventListener("change", (e)=>{
-        console.log(e, e.target, e.target.value);
-        // currentSong.volume = parseInt(e.target.value) / 100
-    })
-
     // Attach an event listener to volume
     document.querySelector(".vol #inputt").addEventListener("input", (e) => {
         let volumeValue = parseInt(e.target.value) / 100; // Get value from the event target and normalize it to 0-1 range
@@ -168,28 +163,27 @@ async function main() {
         }
     });
 
-    document.addEventListener("DOMContentLoaded", ()=>{
-        // Add event listener to mute/unmute the track
-        let previousVolume = 0.2; // Store the previous volume
-        document.querySelector(".volume-svg").addEventListener("click", ()=>{
-            if (document.querySelector(".volume-svg").src.split('/').pop().includes("volume.svg")) {
-                // Mute the Song
-                document.querySelector('.volume-svg').src = document.querySelector('.volume-svg').src.replace("volume.svg", "mute.svg");
-                previousVolume = currentSong.volume; // Save the current volume
-                currentSong.volume = 0; // Mute
-                document.querySelector(".vol input").value = 0; // Set slider to 0
-                console.log("volume-svg clicked");
-            } else {
-                // Unmute the song
-                document.querySelector('.volume-svg').src = document.querySelector('.volume-svg').src.replace("mute.svg", "volume.svg");
-                currentSong.volume = previousVolume;  // Set the restored volume
-                document.querySelector(".vol input").value = previousVolume * 100;  // Set the slider to previous value
-            }
-        })
-    })
 }
 
 main()
+
+// Add event listener to mute/unmute the track
+let previousVolume = 0.2; // Store the previous volume
+document.querySelector(".volume-svg").addEventListener("click", ()=>{
+    if (document.querySelector(".volume-svg").src.split('/').pop().includes("volume.svg")) {
+        // Mute the Song
+        document.querySelector('.volume-svg').src = document.querySelector('.volume-svg').src.replace("volume.svg", "mute.svg");
+        previousVolume = currentSong.volume; // Save the current volume
+        currentSong.volume = 0; // Mute
+        document.querySelector(".vol input").value = 0; // Set slider to 0
+        console.log("volume-svg clicked");
+    } else {
+        // Unmute the song
+        document.querySelector('.volume-svg').src = document.querySelector('.volume-svg').src.replace("mute.svg", "volume.svg");
+        currentSong.volume = previousVolume;  // Set the restored volume
+        document.querySelector(".vol input").value = previousVolume * 100;  // Set the slider to previous value
+    }
+})
 
 function playpause() {
     if (currentSong.paused) {
