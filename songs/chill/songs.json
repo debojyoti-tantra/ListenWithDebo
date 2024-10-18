@@ -1,0 +1,24 @@
+{
+    "folder": "chill",
+    "title": "Just Chill",
+    "description": "Yes, Just Chill",
+    "cover": "./songs/chill/cover.jpg",
+    "songs": [
+      {
+        "name": "Chala Jata Hoon",
+        "file": "Chala Jata Hoon.mp3"
+      },
+      {
+        "name": "Eenie-Meenie",
+        "file": "Eenie-Meenie.mp3"
+      },
+      {
+        "name": "Har Funn Maula",
+        "file": "Har Funn Maula.mp3"
+      },
+      {
+        "name": "Lutt Putt Gaya-Dunki",
+        "file": "Lutt Putt Gaya-Dunki.mp3"
+      }
+    ]
+  }
