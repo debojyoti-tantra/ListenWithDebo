@@ -36,7 +36,7 @@
             </div>
         </main>
 
-        <footer class="white flex-c">&copy;by Debojyoti Tantra</footer>
+        <!-- <footer class="white flex-c">&copy;by Debojyoti Tantra</footer> -->
     </div>
 
     <div class="right temp-bor deepest-gray">
@@ -78,16 +78,16 @@
                 <div class="songname white green-black">Music Name</div>
                 
                 <div class="svgs green-black">
-                    <img id="previous" src="./svg/previous.svg" alt="" class="green-black cur-poi">
-                    <img id="play" src="./svg/play.svg" alt="" class="green-black cur-poi">
-                    <img id="next" src="./svg/next.svg" alt="" class="green-black cur-poi">
+                    <img id="previous" src="./svg/previous.svg" alt="" class="green-black cur-poi" onclick="pre()">
+                    <img id="play" src="./svg/play.svg" alt="" class="green-black cur-poi" onclick="playpause()">
+                    <img id="next" src="./svg/next.svg" alt="" class="green-black cur-poi" onclick="nex()">
                 </div>
 
                 <div class="duration-vol green-black">
                     <div class="duration green-black white">00:00 / 00:00</div>
                     <div class="vol green-black white flex-c">
                         <img src="./svg/volume.svg" alt="" class="green-black cur-poi volume-svg">
-                        <input type="range" class="green-black cur-poi">
+                        <input type="range" class="green-black cur-poi" id="inputt" min="0" max="100">
                     </div>
 
                 </div>
