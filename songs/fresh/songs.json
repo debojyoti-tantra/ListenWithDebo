@@ -1,0 +1,28 @@
+{
+    "folder": "fresh",
+    "title": "Mood Fresh",
+    "description": "Always be Happy",
+    "cover": "./songs/fresh/cover.jpg",
+    "songs": [
+      {
+        "name": "Bye Bye Bye",
+        "file": "Bye Bye Bye.mp3"
+      },
+      {
+        "name": "Deva Deva",
+        "file": "Deva Deva.mp3"
+      },
+      {
+        "name": "Naina da Kya Kasoor",
+        "file": "Naina da Kya Kasoor.mp3"
+      },
+      {
+        "name": "Stay",
+        "file": "Stay.mp3"
+      },
+      {
+        "name": "Tera Fitoor Genius",
+        "file": "Tera Fitoor Genius.mp3"
+      }
+    ]
+  }
