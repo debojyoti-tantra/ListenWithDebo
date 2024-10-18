@@ -1,0 +1,28 @@
+{
+    "folder": "love",
+    "title": "I Love You",
+    "description": "Love is in the air",
+    "cover": "./songs/love/cover.jpg",
+    "songs": [
+      {
+        "name": "Apna Bana Le",
+        "file": "Apna Bana Le.mp3"
+      },
+      {
+        "name": "Cheliya",
+        "file": "Cheliya.mp3"
+      },
+      {
+        "name": "I Love You",
+        "file":"I Love You.mp3"
+      },
+      {
+        "name": "Janib Duet",
+        "file":"Janib Duet.mp3"
+      },
+      {
+        "name": "Tum Se",
+        "file":"Tum Se.mp3"
+      }
+    ]
+}
